@@ -1,0 +1,1150 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 350px) and (max-width: 483.98px){
+    .page-header .navbar .navigation{
+        display: none;
+    }
+    .banner-sec .content .title{
+        font-size: 1.8em;
+    }
+    .navbar .btn.menu{
+        display: inline-block;
+    }
+    .sec-bottom{
+        width: 100%;
+        height: 65px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        place-items: center;
+    }
+    .sec-top{
+        padding: 10px 10px;
+    }
+    .banner-sec{
+        min-height: 87vh;
+    }
+    .sec-left{
+        padding-left: 12px;
+    }
+    .sec-right .clm-links .social-links{
+        padding-right: 15px;
+    }
+    .new-sec{
+        padding: 130px 0 10px 0;
+    }
+    .categories-sec .ctg-boxes{
+        padding: 0 80px;
+    }
+    .categories-sec .single-box{
+        margin-bottom: 20px;
+    }
+    .categories-sec .sec-title{
+        padding: 0;
+        margin-left: 4px;
+    }
+    .categories-sec .title{
+        font-size: 30px;
+    }
+    .templates-sec .temp-boxes .single-temp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .services-sec .ser-boxes{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+    }
+    .services-sec .single-box{
+        margin-bottom: 20px;
+    }
+    .services-sec .sec-title{
+        padding: 0;
+        margin-left: 4px;
+    }
+    .sec-title .title{
+        font-size: 30px;
+    }
+    .services-sec .num-box .ser-line{
+        display: none;
+    }
+    .customers-sec .cust-boxes{
+        padding: 0;
+    }
+    .customers-sec .cust-title{
+        padding-left: 4px;
+    }
+    .cust-title .title{
+        font-size: 30px;
+    }
+    .customers-sec .cust-head{
+        margin: 20px 0;
+    }
+    .customers-sec .cust-head .title{
+        font-size: 10px;
+    }
+    .customers-sec .image-div img{
+        width: 120px;
+        height: 120px;
+    }
+    .customers-sec .cust-name{
+        font-size: 20px;
+    }
+    .customers-sec .job-title{
+        font-size: 15px;
+    }
+    .customers-sec .cust-desc{
+        font-size: 8px;
+    }
+    .customers-sec #mediumCarousel{
+        display: none;
+    }
+    .customers-sec #smollCarousel{
+        display: block;
+    }
+    .left-btn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #FCD20C;
+        color: #FFF;
+        font-size: 25px;
+        top: 30px;
+        left: 3px;
+        border-radius: 50%;
+        opacity: 1;  
+    }
+    .right-btn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #FCD20C;
+        color: #FFF;
+        font-size: 25px;
+        top: 30px;
+        right: 3px;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    .connect-sec .single-connect .title-con{
+        font-size: 30px;
+    }
+    .connect-sec .single-connect{
+        width: 300px;
+    }
+    .connect-sec .single-connect .sec-message .con-btn{
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+    .connect-sec .sec-message .input-msg{
+        padding: 22px 10px;
+    }
+    .page-footer .single-clm{
+        padding-left: 5px;
+    }
+    .page-footer .single-copy .clm-title .title{
+        padding-top: 4px;
+    }
+    .page-footer .social-links{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .page-footer .single-clm .link{ 
+        font-size: 20px;
+    }
+    .odr-f{
+        order: 1;
+    }    
+    .odr-s{
+        order: 3;
+    }    
+    .odr-t{
+        order: 2;
+    }
+    .about-sec{
+        padding: 150px 0 0 5px;
+    }
+    .about-sec .image-div{
+        text-align: center;
+    }
+    .about-sec .image-div img{
+        width: 340px;
+        height: 300px;
+    }
+    .about-sec .about-name .title{
+        padding-left: 18px;
+        width: 100%;
+        font-size: 22px;
+    }
+    .about-sec .about-info .title{
+        padding-left: 18px;
+        width: 100%;
+        font-size: 22px;
+    }
+    .about-sec .about-desc .desc{
+        padding-left: 18px;
+        width: 100%;
+        font-size: 15px;
+    }
+    .about-sec .about-desc .desc-bottom{
+        width: 95%;
+        font-size: 15px;
+    }
+    .box-pad{
+        padding-left: 50px;
+    }
+    .jobs-sec{
+        padding: 150px 0 0 6px;
+    }
+    .jobs-sec .jobs-box .desc-bottom{
+        width: 100%;
+    }
+    .jobs-sec .jobs-box .jobs-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .jobs-sec .jobs-box .sub-btn{
+        margin-bottom: 15px;
+        padding: 5px 30px;
+        font-size: 20px;
+    }
+    .jobs-sec .jobs-box .job-det{
+        font-size: 15px;
+        margin-bottom: 15px;
+        padding-left: 0;
+    }
+    .jobs-sec .jobs-details .details{
+        font-size: 12px;
+    }
+    .about-blog-sec{
+        padding: 150px 6px 100px 5px;
+    }
+    .about-blog-sec .img-blog img{
+        width: 350px;
+        height: 200px;
+    }
+    .about-blog-sec .read-name{
+        margin-left: -20px;
+    }
+    .about-blog-sec .read-name .title{
+        padding-top: 20px;
+    }
+    .about-blog-sec .read-mar{
+        padding-left: 30px;
+    }
+    .about-blog-sec .desc-mar{
+        padding-left: 13px;
+    }
+    .about-blog-sec .read-desc .desc{
+        margin-left: -20px;
+    }
+    .sec-info .title{
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .offers-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .offers-sec .single-box{
+        margin: 10px 10px;
+    }
+    .pres-sec{
+        padding: 150px 0 0 0;
+    }
+    .pres-sec .pres-box{
+        padding: 20px;
+    }
+    .contact-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .contact-sec .contact-box, .contact-left, .contact-right, .contact-btn{
+        padding-left: 7px;
+    }
+    .contact-sec .contact-left{
+        font-size: 20px;
+    }
+    .blog-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .blog-sec .img-b{
+        width: 350px;
+        height: 200px;
+    }
+    .blog-sec .single-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .blog-sec .box-info .title{
+        padding-top: 20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .blog-sec .box-info{
+        padding-left: 20px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 484px) and (max-width: 575.98px) {
+    .page-header .navbar .navigation{
+        display: none;
+    }
+    .banner-sec .content .title{
+        font-size: 1.8em;
+    }
+    .navbar .btn.menu{
+        display: inline-block;
+    }
+    .sec-bottom{
+        width: 100%;
+        height: 65px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        place-items: center;
+    }
+    .sec-top{
+        padding: 10px 10px;
+    }
+    .sec-left{
+        padding-left: 12px;
+    }
+    .sec-right .clm-links .social-links{
+        padding-right: 15px;
+    }
+    .categories-sec{
+        padding: 130px 5px 10px 5px;
+    }
+    .categories-sec .ctg-boxes{
+        padding: 0 70px;
+    }
+    .services-sec .ser-boxes{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        padding: 10px;
+    }
+    .services-sec .num-box .ser-line{
+        display: none;
+    }
+    .services-sec .sec-title{
+        padding: 0 0 0 6px;
+    }
+    .customers-sec .cust-boxes{
+        padding: 0;
+    }
+    .customers-sec .cust-title{
+        padding: 0 0 0 6px;
+    }
+    .customers-sec .cust-head{
+        margin: 20px 0;
+    }
+    .customers-sec .cust-head .title{
+        font-size: 12px;
+        color: #FFF;
+        text-align: center;
+    }
+    .customers-sec #mediumCarousel{
+        display: none;
+    }
+    .customers-sec #smollCarousel{
+        display: block;
+    }
+    .left-btn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #FCD20C;
+        color: #FFF;
+        font-size: 25px;
+        top: 60px;
+        left: 3px;
+        border-radius: 50%;
+        opacity: 1;  
+    }
+    .right-btn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #FCD20C;
+        color: #FFF;
+        font-size: 25px;
+        top: 60px;
+        right: 3px;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    .connect-sec .single-connect{
+        width: 400px;
+    }
+    .connect-sec .single-connect .sec-message .con-btn{
+        padding: 5px 15px;
+    }
+    .connect-sec .sec-message .input-msg{
+        padding: 22px 10px;
+    }
+    .page-footer .single-clm{
+        padding-left: 5px;
+    }
+    .page-footer .single-copy .clm-title .title{
+        padding-top: 4px;
+    }
+    .page-footer .social-links{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .page-footer .single-clm .link{ 
+        font-size: 20px;
+    }
+    .odr-f{
+        order: 1;
+    }    
+    .odr-s{
+        order: 3;
+    }    
+    .odr-t{
+        order: 2;
+    }
+    .about-sec .image-div{
+        text-align: center;
+    }
+    .about-sec .image-div img{
+        width: 350px;
+        height: 300px;
+    }
+    .about-sec{
+    padding: 150px 0 0 5px;
+    }
+    .about-sec .about-info .title{
+        width: 80%;
+    }
+    .box-pad{
+        padding-left: 50px;
+    }
+    .jobs-sec{
+        padding: 150px 0 0 6px;
+    }
+    .jobs-sec .jobs-box .desc-bottom{
+        width: 100%;
+    }
+    .jobs-sec .jobs-box .jobs-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .jobs-sec .jobs-box .sub-btn{
+        margin-bottom: 15px;
+        padding: 5px 30px;
+        font-size: 20px;
+    }
+    .jobs-sec .jobs-box .job-det{
+        font-size: 17px;
+        margin-bottom: 15px;
+        padding-left: 0;
+    }
+    .jobs-sec .jobs-details .details{
+        font-size: 15px;
+    }
+    .about-blog-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .about-blog-sec .img-blog img{
+        width: 450px;
+        height: 200px;
+    }
+    .about-blog-sec .read-name{
+        margin-left: -20px;
+    }
+    .about-blog-sec .read-name .title{
+        padding-top: 20px;
+    }
+    .about-blog-sec .read-mar{
+        padding-left: 30px;
+    }
+    .about-blog-sec .desc-mar{
+        padding-left: 13px;
+    }
+    .about-blog-sec .read-desc .desc{
+        margin-left: -20px;
+    }
+    .sec-info .title{
+        padding-left: 10px;
+        font-size: 24px;
+    }
+    .offers-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .pres-sec{
+        padding: 150px 0 0 0;
+    }
+    .pres-sec .pres-box{
+        padding: 20px;
+    }
+    .contact-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .contact-sec .contact-box, .contact-left, .contact-right, .contact-btn{
+        padding-left: 7px;
+    }
+    .contact-sec .contact-left{
+        font-size: 23px;
+    }
+    .blog-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .blog-sec .img-b{
+        width: 450px;
+        height: 200px;
+    }
+    .blog-sec .single-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .blog-sec .box-info .title{
+        padding-top: 20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .blog-sec .box-info{
+        padding-left: 5px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .page-header .navbar .navigation{
+        display: none;
+    }
+    .banner-sec .content .title{
+        font-size: 2.5em;
+    }
+    .navbar .btn.menu{
+        display: inline-block;
+    }
+    .sec-bottom{
+        width: 100%;
+        height: 65px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        place-items: center;
+    }
+    .sec-top{
+        padding: 10px 10px;
+    }
+    .sec-left{
+        padding-left: 12px;
+    }
+    .sec-right .clm-links .social-links{
+        padding-right: 15px;
+    }
+    .categories-sec{
+        padding: 130px 5px 10px 5px;
+    }
+    .categories-sec .ctg-boxes{
+        padding: 0 70px;
+    }
+    .services-sec .ser-boxes{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        align-items: center;
+        padding: 0;
+    }
+    .services-sec .sec-title{
+        padding: 0 0 0 6px;
+    }
+    .two, .four, .sex{
+        display: none;
+    }
+    .customers-sec .cust-title{
+        padding: 0 0 0 6px;
+    }
+    .customers-sec .cust-boxes{
+        padding: 0;        
+        margin-left: 50px;
+    }
+    .customers-sec #mediumCarousel{
+        display: none;
+    }
+    .customers-sec #smollCarousel{
+        display: block;
+    }
+    .left-btn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #FCD20C;
+        color: #FFF;
+        font-size: 25px;
+        top: 60px;
+        left: 3px;
+        border-radius: 50%;
+        opacity: 1;  
+    }
+    .right-btn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #FCD20C;
+        color: #FFF;
+        font-size: 25px;
+        top: 60px;
+        right: 3px;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    .connect-sec .single-connect{
+        width: 500px;
+    }
+    .connect-sec .single-connect .sec-message .con-btn{
+        padding: 5px 15px;
+    }
+    .connect-sec .sec-message .input-msg{
+        padding: 22px 10px;
+    }
+    .page-footer .single-clm{
+        padding-left: 5px;
+    }
+    .page-footer .single-copy .clm-title .title{
+        padding-top: 20px;
+        font-size: 13px;
+    }
+    .page-footer .social-links{
+        margin-top: 10px;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .page-footer .single-clm .link{ 
+        font-size: 18px;
+    }
+    .odr-f{
+        order: 1;
+    }    
+    .odr-s{
+        order: 2;
+    }    
+    .odr-t{
+        order: 3;
+    }
+    .about-sec .image-div{
+        text-align: center;
+    }
+    .about-sec .image-div img{
+        width: 450px;
+        height: 350px;
+    }
+    .about-sec{
+    padding: 150px 0 0 5px;
+    }
+    .about-sec .about-info .title{
+        width: 80%;
+    }
+    .box-pad{
+        padding-left: 50px;
+    }
+    .jobs-sec{
+        padding: 150px 0 0 6px;
+    }
+    .jobs-sec .jobs-box .desc-bottom{
+        width: 100%;
+    }
+    .jobs-sec .jobs-box .jobs-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .jobs-sec .jobs-box .sub-btn{
+        margin-bottom: 15px;
+        padding: 7px 35px;
+        font-size: 25px;
+    }
+    .jobs-sec .jobs-box .job-det{
+        font-size: 18px;
+        margin-bottom: 15px;
+        padding-left: 0;
+    }
+    .jobs-sec .jobs-details .details{
+        font-size: 16px;
+    }
+    .about-blog-sec{
+        padding: 150px 6px 100px 5px;
+    }
+    .about-blog-sec .img-blog img{
+        width: 500px;
+        height: 250px;
+    }
+    .about-blog-sec .read-name{
+        margin-left: -20px;
+    }
+    .about-blog-sec .read-name .title{
+        padding-top: 20px;
+    }
+    .about-blog-sec .read-mar{
+        padding-left: 30px;
+    }
+    .about-blog-sec .desc-mar{
+        padding-left: 13px;
+    }
+    .about-blog-sec .read-desc .desc{
+        margin-left: -20px;
+    }
+    .sec-info .title{
+        padding-left: 10px;
+        font-size: 27px;
+    }
+    .offers-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .offers-sec .single-box{
+        margin: 10px 100px;
+    }
+    .pres-sec{
+        padding: 150px 0 0 0;
+    }
+    .pres-sec .pres-box{
+        padding: 20px;
+    }
+    .contact-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .contact-sec .contact-box, .contact-left, .contact-right, .contact-btn{
+        padding-left: 7px;
+    }
+    .contact-sec .contact-left{
+        font-size: 20px;
+    }
+    .blog-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .blog-sec .img-b{
+        width: 450px;
+        height: 200px;
+    }
+    .blog-sec .single-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .blog-sec .box-info .title{
+        padding-top: 20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .blog-sec .box-info{
+        padding-left: 58px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .page-header .navbar .navigation{
+        display: none;
+    }
+    .banner-sec .content .title{
+        font-size: 3em;
+    }
+    .navbar .btn.menu{
+        display: inline-block;
+    }    
+    .sec-bottom{
+        width: 100%;
+        height: 65px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        place-items: center;
+    }
+    .sec-top{
+        padding: 10px 10px;
+    }    
+    .sec-left{
+        padding-left: 12px;
+    }
+    .sec-right .clm-links .social-links{
+        padding-right: 15px;
+    }
+    .categories-sec{
+        padding: 130px 5px 10px 5px;
+    }
+    .categories-sec .ctg-boxes{
+        padding: 0 70px;
+    }
+    .services-sec .sec-title{
+        padding: 0 0 0 6px;
+    }
+    .services-sec .ser-boxes{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+    .services-sec .ser-boxes{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        align-items: center;
+        padding: 42px;
+    }
+    .two, .four, .sex{
+        display: none;
+    }
+    .customers-sec .cust-title{
+        padding: 0 0 0 6px;
+    }
+    .customers-sec .cust-boxes{
+        padding: 0 130px;
+    }
+    .customers-sec #mediumCarousel{
+        display: none;
+    }
+    .customers-sec #smollCarousel{
+        display: block;
+    }
+    .left-btn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #FCD20C;
+        color: #FFF;
+        font-size: 25px;
+        top: 60px;
+        left: 3px;
+        border-radius: 50%;
+        opacity: 1;  
+    }
+    .right-btn{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: #FCD20C;
+        color: #FFF;
+        font-size: 25px;
+        top: 60px;
+        right: 3px;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    .connect-sec .single-connect{
+        width: 600px;
+    }
+    .connect-sec .single-connect .sec-message .con-btn{
+        padding: 5px 15px;
+    }
+    .connect-sec .sec-message .input-msg{
+        padding: 22px 10px;
+    }
+    .page-footer .single-clm{
+        padding-left: 5px;
+    }
+    .page-footer .single-copy .clm-title .title{
+        padding-top: 30px;
+        font-size: 15px;
+    }
+    .page-footer .social-links{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .page-footer .single-clm .link{ 
+        font-size: 20px;
+    }
+    .odr-f{
+        order: 1;
+    }    
+    .odr-s{
+        order: 2;
+    }    
+    .odr-t{
+        order: 3;
+    }
+    .about-sec .image-div{
+        text-align: center;
+    }
+    .about-sec .image-div img{
+        width: 500px;
+        height: 400px;
+    }
+    .about-sec{
+    padding: 150px 0 0 5px;
+    }
+    .about-sec .about-info .title{
+        width: 100%;
+    }
+    .box-pad{
+        padding-left: 50px;
+    }
+    .jobs-sec{
+        padding: 150px 0 0 6px;
+    }
+    .jobs-sec .jobs-box .desc-bottom{
+        width: 100%;
+    }
+    .jobs-sec .jobs-box .jobs-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .jobs-sec .jobs-box .sub-btn{
+        margin-bottom: 15px;
+        padding: 7px 35px;
+        font-size: 25px;
+    }
+    .jobs-sec .jobs-box .job-det{
+        font-size: 18px;
+        margin-bottom: 15px;
+        padding-left: 0;
+    }
+    .jobs-sec .jobs-details .details{
+        font-size: 16px;
+    }
+    .about-blog-sec{
+        padding: 150px 6px 100px 5px;
+    }
+    .about-blog-sec .img-blog img{
+        width: 650px;
+        height: 300px;
+    }
+    .about-blog-sec .read-name{
+        margin-left: -20px;
+    }
+    .about-blog-sec .read-name .title{
+        padding-top: 20px;
+    }
+    .about-blog-sec .read-mar{
+        padding-left: 30px;
+    }
+    .about-blog-sec .desc-mar{
+        padding-left: 13px;
+    }
+    .about-blog-sec .read-desc .desc{
+        margin-left: -20px;
+    }
+    .sec-info .title{
+        padding-left: 10px;
+        font-size: 30px;
+    }
+    .offers-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .pres-sec{
+        padding: 150px 0 0 0;
+    }
+    .pres-sec .pres-box{
+        padding: 30px;
+    }
+    .blog-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .blog-sec .img-b{
+        width: 550px;
+        height: 300px;
+    }
+    .blog-sec .single-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .blog-sec .box-info .title{
+        padding-top: 20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .blog-sec .box-info{
+        padding-left: 85px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .sec-bottom{
+        width: 100%;
+        height: 65px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        place-items: center;
+    }
+    .sec-top{
+        padding: 10px 10px;
+    }
+    .sec-left{
+        padding-left: 12px;
+    }
+    .sec-right .clm-links .social-links{
+        padding-right: 15px;
+    }
+    .categories-sec{
+        padding: 130px 5px 10px 5px;
+    }
+    .categories-sec .ctg-boxes{
+        padding: 0 70px;
+    }
+    .services-sec .sec-title{
+        padding: 0 0 0 6px;
+    }
+    .services-sec .ser-boxes{
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        align-items: center;
+        padding: 40px;
+    }
+    .three, .sex{
+        display: none;
+    }
+    .customers-sec .cust-title{
+        padding: 0 0 0 6px;
+    }
+    .customers-sec .cust-boxes{
+        padding: 0 100px;
+    }
+    .page-footer .single-clm{
+        padding-left: 5px;
+    }
+    .page-footer .single-copy .clm-title .title{
+        padding-top: 30px;
+        font-size: 15px;
+    }
+    .page-footer .social-links{
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    .page-footer .single-clm .link{ 
+        font-size: 20px;
+    }
+    .odr-f{
+        order: 1;
+    }    
+    .odr-s{
+        order: 2;
+    }    
+    .odr-t{
+        order: 3;
+    }
+    .about-sec .image-div{
+        text-align: center;
+    }
+    .about-sec .image-div img{
+        width: 500px;
+        height: 400px;
+    }
+    .about-sec{
+    padding: 150px 0 0 5px;
+    }
+    .about-sec .about-info .title{
+        width: 100%;
+    }
+    .box-pad{
+        padding-left: 50px;
+    }
+    .jobs-sec{
+        padding: 150px 0 0 6px;
+    }
+    .jobs-sec .jobs-box .desc-bottom{
+        width: 100%;
+    }
+    .jobs-sec .jobs-box .jobs-details{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .jobs-sec .jobs-box .sub-btn{
+        margin-bottom: 15px;
+        padding: 7px 35px;
+        font-size: 25px;
+    }
+    .jobs-sec .jobs-box .job-det{
+        font-size: 18px;
+        margin-bottom: 15px;
+        padding-left: 40px;
+    }
+    .jobs-sec .jobs-details .details{
+        font-size: 16px;
+    }
+    .about-blog-sec{
+        padding: 150px 6px 100px 5px;
+    }
+    .about-blog-sec .img-blog img{
+        width: 700px;
+        height: 350px;
+    }
+    .about-blog-sec .read-name{
+        margin-left: -20px;
+    }
+    .about-blog-sec .read-name .title{
+        padding-top: 20px;
+    }
+    .about-blog-sec .read-mar{
+        padding-left: 30px;
+    }
+    .about-blog-sec .desc-mar{
+        padding-left: 13px;
+    }
+    .about-blog-sec .read-desc .desc{
+        margin-left: -20px;
+    }
+    .sec-info .title{
+        padding-left: 10px;
+        font-size: 35px;
+    }
+    .blog-sec{
+        padding: 150px 5px 100px 5px;
+    }
+    .blog-sec .img-b{
+        width: 650px;
+        height: 350px;
+    }
+    .blog-sec .single-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .blog-sec .box-info .title{
+        padding-top: 20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .blog-sec .box-info{
+        padding-left: 170px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .four{
+        display: none;
+    }
+}
